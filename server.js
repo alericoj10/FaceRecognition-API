@@ -13,9 +13,7 @@ const db = knex({
     client: 'pg',
     connection: {
         host: 'postgresql-animate-10445',
-        user: 'postgres',
-        password: 'postgres',
-        database: "'smart-brain'"
+        ssl: true
     }
 });
 
